@@ -1,7 +1,7 @@
 {
-  "name": "nuxttsvuetifytemplate",
+  "name": "karaoke-app",
   "version": "1.0.0",
-  "description": "Nuxt.ts with Vuetify Template",
+  "description": "KaraokeApp",
   "author": "ozelotjp",
   "private": true,
   "scripts": {

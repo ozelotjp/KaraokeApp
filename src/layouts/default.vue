@@ -3,7 +3,7 @@
     <v-app-bar app clipped-left elevation="1">
       <v-app-bar-nav-icon @click="state.drawer = !state.drawer" />
       <v-toolbar-title>
-        NuxtTSVuetifyTemplate
+        KaraokeApp
       </v-toolbar-title>
       <v-spacer />
       <v-btn v-if="state.isAuthenticated" icon to="/auth/logout">

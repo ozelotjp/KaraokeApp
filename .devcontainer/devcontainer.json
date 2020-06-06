@@ -1,6 +1,6 @@
 // https://code.visualstudio.com/docs/remote/containers#_devcontainerjson-reference
 {
-  "name": "NuxtTSVuetifyTemplate",
+  "name": "KaraokeApp",
   "extensions": [
     // General
     "editorconfig.editorconfig",
