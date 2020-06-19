@@ -48,9 +48,9 @@
         </v-list>
       </div>
     </v-navigation-drawer>
-    <v-content>
+    <v-main>
       <nuxt />
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
