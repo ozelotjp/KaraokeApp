@@ -25,7 +25,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/vuetify": "^1.11.2",
     "@vue/composition-api": "^0.6.5",
-    "firebase": "^7.15.2",
+    "firebase": "^7.15.3",
     "nuxt": "^2.13.0",
     "vuex-module-decorators": "^0.17.0"
   },
