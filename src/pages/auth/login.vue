@@ -1,10 +1,8 @@
 <template>
   <v-container>
-    <v-row>
-      <v-col>
-        <h1>ログイン</h1>
-      </v-col>
-    </v-row>
+    <h1>
+      ログイン
+    </h1>
     <v-row>
       <v-col cols="12" md="6">
         <v-card>
@@ -149,8 +147,8 @@ export default defineComponent({
         })
     }
     const signInWithEmailAndPasswordField = reactive({
-      email: '',
-      password: ''
+      email: 'debug@ozelot.dev',
+      password: 'password'
     })
 
     const signInWithPhone = () => {

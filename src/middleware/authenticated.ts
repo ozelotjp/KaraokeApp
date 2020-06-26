@@ -12,14 +12,10 @@ const myMiddleware: Middleware = async ({
       .onAuthStateChanged((user) =>
         user === null ? reject(new Error()) : resolve(user)
       )
+  }).catch(() => {
+    authenticatedStore.setNextUrl(route.path)
+    redirect('/auth/login')
   })
-    .then((user) => {
-      console.log(`Authenticated as ${user.uid}`)
-    })
-    .catch(() => {
-      authenticatedStore.setNextUrl(route.path)
-      redirect('/auth/login')
-    })
 }
 
 export default myMiddleware
